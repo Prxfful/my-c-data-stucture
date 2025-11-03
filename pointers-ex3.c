@@ -4,8 +4,8 @@ int main(){
     int *ptr;
     ptr=&num;
     printf("value of num:%d\n",num);
-    printf("adress of num:%d\n",&num);
-    printf("value stored in ptr(adress of num):%d\n",ptr);
+    printf("adress of num:%p\n",&num);
+    printf("value stored in ptr(adress of num):%p\n",ptr);
     printf("value pointed by ptr:%d\n",*ptr);
 }
 output:
