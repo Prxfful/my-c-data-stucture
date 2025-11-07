@@ -51,7 +51,7 @@ void freeList(Node *head) {
 
 int main() 
 {
-    printf("name:Ramesh\nusn:1SV24CS116\n");
+    printf("name:Prafful\nusn:1SV24CS098\n");
     Node *head = NULL;
     for (int i = 5; i >= 1; i--)
         head = insert(head, i);
@@ -63,7 +63,7 @@ int main()
     return 0;
 }
 output:
-name:Ramesh
-usn:1SV24CS116
+name:Prafful
+usn:1SV24CS098
 1 -> 2 -> 3 -> 4 -> 5 -> NULL
 1 -> 2 -> 3 -> 5 -> NULL
